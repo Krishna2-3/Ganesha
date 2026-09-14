@@ -1,5 +1,48 @@
 const A=[
-[1, "Sukh Karta Dukh Harta (Ganpati Aarti)",
+[1, "Jay Ganesh (Ganesh Aarti)",
+`Jai Ganesh Jai Ganesh Jai Ganesh Deva
+Mata Jaki Parvati Pita Mahadeva
+
+Ekdant Dayavant Chaar Bhujadhari
+Mathe Par Tilak Sohe Muse Ki Savari
+Paan Chadhe Phool Chadhe Aur Chadhe Meva
+Laddu'an Ka Bhog Lage Sant Karein Seva
+Jai Ganesh Jai Ganesh Jai Ganesh Deva
+
+Andhan Ko Aankh Det Kodhin Ko Kaaya
+Baanjhan Ko Putra Det Nirdhan Ko Maaya
+'Sur' Shyam Sharan Aaye Safal Kije Seva
+Jai Ganesh Jai Ganesh Jai Ganesh Deva`,
+`जय गणेश जय गणेश जय गणेश देवा ।
+माता जाकी पार्वती पिता महादेवा ॥
+
+एकदंत दयावंत चार भुजाधारी ।
+माथे पर तिलक सोहे मूसे की सवारी ॥
+पान चढ़े फूल चढ़े और चढ़े मेवा ।
+लड्डुअन का भोग लगे संत करें सेवा ॥
+जय गणेश जय गणेश जय गणेश देवा ।
+माता जाकी पार्वती पिता महादेवा ॥
+
+अंधन को आंख देत कोढ़िन को काया ।
+बांझन को पुत्र देत निर्धन को माया ॥
+'सूर' श्याम शरण आए सफल कीजे सेवा ।
+जय गणेश जय गणेश जय गणेश देवा ॥`,
+`(ही मूळ हिंदी आरती महाराष्ट्रातही तितक्याच भक्तिभावाने गायली जाते)
+जय गणेश जय गणेश जय गणेश देवा ।
+माता जाकी पार्वती पिता महादेवा ॥
+
+एकदंत दयावंत चार भुजाधारी ।
+माथे पर तिलक सोहे मूसे की सवारी ॥
+पान चढ़े फूल चढ़े और चढ़े मेवा ।
+लड्डुअन का भोग लगे संत करें सेवा ॥
+जय गणेश जय गणेश जय गणेश देवा ।
+माता जाकी पार्वती पिता महादेवा ॥
+
+अंधन को आंख देत कोढ़िन को काया ।
+बांझन को पुत्र देत निर्धन को माया ॥
+'सूर' श्याम शरण आए सफल कीजे सेवा ।
+जय गणेश जय गणेश जय गणेश देवा ॥`],  
+[2, "Sukh Karta Dukh Harta (Ganpati Aarti)",
 `Sukhkarta Dukhharta Varta Vighnachi
 Nurvi Purvi Prem Krupa Jayachi
 Sarvangi Sundar Uti Shendurachi
@@ -80,7 +123,7 @@ Jai Dev Jai Dev`,
 दर्शनमात्रे मनकामना पुरती ।
 जय देव जय देव ॥`],
 
-[2, "Shendurlal Chadayo (Ganesh Aarti)",
+[3, "Shendurlal Chadayo (Ganesh Aarti)",
 `Shendur Lal Chadhayo Achha Gajmukh Ko
 Dondil Lal Biraje Sut Gaurihar Ko
 Haath Liye Gud-Laddu Sai Survar Ko
@@ -141,7 +184,7 @@ Jai Dev Jai Dev`,
 गोसावीनंदन निशिदिन गुण गावे ॥
 जय देव जय देव`],
 
-[3, "Lavthavti Vikrala (Shankaraची Aarti)",
+[4, "Lavthavti Vikrala (Shankaraची Aarti)",
 `Lavthavti Vikrala Brahmandi Mala
 Vishe Kanth Kala Trinetri Jwala
 Lavanyasundar Mastaki Baala
@@ -210,7 +253,7 @@ Jai Dev Jai Dev Jai Shrishankara`,
 शतकोटीचे बीज वाचे उच्चारी ।
 रघुकुळटिळक रामदासा अंतरी ॥ जय देव० ॥ ४ ॥`],
 
-[4, "Durghe Durghat Aarti (Devi Aarti)",
+[5, "Durghe Durghat Aarti (Devi Aarti)",
 `Durge Durghat Bhari Tujvin Sansari
 Anathnathe Ambe Karuna Vistari
 Vari Vari Janmamaranate Vari
@@ -263,7 +306,7 @@ Jai Devi Jai Devi`,
 अंबे तुजवाचून कोण पुरवील आशा ।
 नरहरी तल्लीन झाला पदपंकजलेशा ॥ जय देवी० ॥ ३ ॥`],
 
-[5, "Yei O Vithale (Vitthal Aarti)",
+[6, "Yei O Vithale (Vitthal Aarti)",
 `Yei Ho Vitthale Majhe Mauli Ye
 Nidhalavari Kar Thevuni Vaat Mi Pahe
 
@@ -312,56 +355,7 @@ Yei Ho...`,
 असो नसो भाव आम्हां तुझिया ठाया ।
 कृपादृष्टी पाहे माझ्या पंढरीराया ॥ येई हो० ॥ ४ ॥`],
 
-[6, "Tu Sukh Karta Tu Dukh Harta",
-`(Note: this is the same Ganpati aarti as #1, "Sukhkarta Dukhharta" — just a common alternate way people refer to its opening line. The correct, complete text is identical to entry 1 above; see there for the full lyrics.)`,
-`(टीप: ही आरती वरील क्रमांक १ ("सुखकर्ता दुखहर्ता") हीच आरती आहे, फक्त सुरुवातीची ओळ बोलण्याच्या पद्धतीने वेगळी वाटते. पूर्ण व अचूक आरतीचा मजकूर क्रमांक १ प्रमाणेच आहे.)`,
-`(टीप: ही आरती वरील क्रमांक १ ("सुखकर्ता दुखहर्ता") हीच आरती आहे. संपूर्ण, अचूक मजकुरासाठी क्रमांक १ पहा — कृपया वेगळा मजकूर समजू नये.)`],
-
-[7, "Jay Ganesh (Ganesh Aarti)",
-`Jai Ganesh Jai Ganesh Jai Ganesh Deva
-Mata Jaki Parvati Pita Mahadeva
-
-Ekdant Dayavant Chaar Bhujadhari
-Mathe Par Tilak Sohe Muse Ki Savari
-Paan Chadhe Phool Chadhe Aur Chadhe Meva
-Laddu'an Ka Bhog Lage Sant Karein Seva
-Jai Ganesh Jai Ganesh Jai Ganesh Deva
-
-Andhan Ko Aankh Det Kodhin Ko Kaaya
-Baanjhan Ko Putra Det Nirdhan Ko Maaya
-'Sur' Shyam Sharan Aaye Safal Kije Seva
-Jai Ganesh Jai Ganesh Jai Ganesh Deva`,
-`जय गणेश जय गणेश जय गणेश देवा ।
-माता जाकी पार्वती पिता महादेवा ॥
-
-एकदंत दयावंत चार भुजाधारी ।
-माथे पर तिलक सोहे मूसे की सवारी ॥
-पान चढ़े फूल चढ़े और चढ़े मेवा ।
-लड्डुअन का भोग लगे संत करें सेवा ॥
-जय गणेश जय गणेश जय गणेश देवा ।
-माता जाकी पार्वती पिता महादेवा ॥
-
-अंधन को आंख देत कोढ़िन को काया ।
-बांझन को पुत्र देत निर्धन को माया ॥
-'सूर' श्याम शरण आए सफल कीजे सेवा ।
-जय गणेश जय गणेश जय गणेश देवा ॥`,
-`(ही मूळ हिंदी आरती महाराष्ट्रातही तितक्याच भक्तिभावाने गायली जाते)
-जय गणेश जय गणेश जय गणेश देवा ।
-माता जाकी पार्वती पिता महादेवा ॥
-
-एकदंत दयावंत चार भुजाधारी ।
-माथे पर तिलक सोहे मूसे की सवारी ॥
-पान चढ़े फूल चढ़े और चढ़े मेवा ।
-लड्डुअन का भोग लगे संत करें सेवा ॥
-जय गणेश जय गणेश जय गणेश देवा ।
-माता जाकी पार्वती पिता महादेवा ॥
-
-अंधन को आंख देत कोढ़िन को काया ।
-बांझन को पुत्र देत निर्धन को माया ॥
-'सूर' श्याम शरण आए सफल कीजे सेवा ।
-जय गणेश जय गणेश जय गणेश देवा ॥`],
-
-[8, "Om Jai Jagdish Hare",
+[7, "Om Jai Jagdish Hare",
 `Om Jai Jagdish Hare, Swami Jai Jagdish Hare
 Bhakt Janon Ke Sankat, Das Janon Ke Sankat, Kshan Mein Door Kare
 
@@ -442,7 +436,7 @@ Tera Tujhko Arpan, Kya Lagat Mera`,
 तन मन धन जो कुछ है, सब ही है तेरा ।
 तेरा तुझको अर्पण, क्या लगत है मेरा ॥ ॐ जय जगदीश हरे ॥`],
 
-[9, "Kapur Gaurang (Karpurgaura Gaurishankara – Shankarची Aarti)",
+[8, "Kapur Gaurang (Karpurgaura Gaurishankara – Shankarची Aarti)",
 `Karpurgaura Gaurishankara Aarti Karu Tujla
 Naam Smarta Prasanna Houni Pavasi Bhaktala
 
@@ -481,7 +475,7 @@ Moreshwarsut Vasudev Tuj Smarto Antari`,
 सदया सगुणा गौरीरमणा मम संकट वारीं ॥
 मोरेश्वरसुत वासुदेव तुज स्मरतो अंतरी ॥ २ ॥`],
 
-[10, "Ghalin Lotangan",
+[9, "Ghalin Lotangan",
 `Ghalin Lotangan Vandin Charan
 Dolyanni Pahin Roop Tujhe
 Preme Alingan Aanande Pujin
